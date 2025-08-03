@@ -64,7 +64,14 @@ export default function App() {
       ))}
     </ScrollView>
   );
-}
+}export default function Page() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Siema, świat!</Text>
+    </View>
+  );
+              }
+          
 
 const styles = StyleSheet.create({
   container: { padding: 20, marginTop: 40 },
